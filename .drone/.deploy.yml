@@ -1,0 +1,5 @@
+pipeline:
+  deploy:
+    image: debian:stable-slim
+    commands:
+      - I'm deploying

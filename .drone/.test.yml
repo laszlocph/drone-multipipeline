@@ -1,0 +1,5 @@
+pipeline:
+  lint:
+    image: debian:stable-slim
+    commands:
+      - I'm testing
