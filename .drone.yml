@@ -1,5 +1,0 @@
-pipeline:
-  step1:
-    image: debian:stable-slim
-    commands:
-      - echo hello multi pipeline
