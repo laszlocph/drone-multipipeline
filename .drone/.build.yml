@@ -2,4 +2,4 @@ pipeline:
   build:
     image: debian:stable-slim
     commands:
-      - echo building
+      - echo building1
