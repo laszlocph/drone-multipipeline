@@ -1,5 +1,5 @@
 pipeline:
-  lint:
+  build:
     image: debian:stable-slim
     commands:
       - echo building

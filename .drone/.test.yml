@@ -1,5 +1,5 @@
 pipeline:
-  lint:
+  test:
     image: debian:stable-slim
     commands:
       - echo testing
