@@ -3,3 +3,8 @@ pipeline:
     image: debian:stable-slim
     commands:
       - echo deploying
+
+depends_on:
+  - lint
+  - build
+  - test
