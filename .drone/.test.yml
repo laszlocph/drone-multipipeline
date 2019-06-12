@@ -3,3 +3,6 @@ pipeline:
     image: debian:stable-slim
     commands:
       - echo testing
+
+depends_on:
+  - build
