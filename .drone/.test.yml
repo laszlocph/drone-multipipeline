@@ -3,7 +3,7 @@ pipeline:
     image: debian:stable-slim
     commands:
       - echo testing
-      - sleep 5
+      - exit 1
 
 depends_on:
   - build
