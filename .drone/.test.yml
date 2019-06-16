@@ -5,5 +5,10 @@ pipeline:
       - echo testing
       - exit 1
 
+  wontrun:
+    image: debian:stable-slim
+    command:
+      - echo I will not run
+
 depends_on:
   - build
