@@ -8,3 +8,5 @@ depends_on:
   - lint
   - build
   - test
+
+branches: master
