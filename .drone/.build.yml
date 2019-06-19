@@ -1,5 +1,6 @@
 pipeline:
-  lint:
+  build:
     image: debian:stable-slim
     commands:
-      - echo I'm deploying
+      - echo building2
+      - sleep 4

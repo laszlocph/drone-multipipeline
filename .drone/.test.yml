@@ -1,5 +1,9 @@
 pipeline:
-  lint:
+  test:
     image: debian:stable-slim
     commands:
-      - echo I'm testing
+      - echo testing
+      - sleep 5
+
+depends_on:
+  - build

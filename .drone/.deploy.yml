@@ -2,4 +2,11 @@ pipeline:
   deploy:
     image: debian:stable-slim
     commands:
-      - echo I'm deploying
+      - echo deploying
+
+depends_on:
+  - lint
+  - build
+  - test
+
+branches: master
