@@ -4,3 +4,6 @@ pipeline:
     commands:
       - echo linting
       - sleep 5
+
+depends_on:
+  - build
