@@ -8,3 +8,5 @@ depends_on:
   - lint
   - build
   - test
+
+skip_clone: true
