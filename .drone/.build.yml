@@ -1,6 +1,0 @@
-pipeline:
-  build:
-    image: debian:stable-slim
-    commands:
-      - echo building2
-      - sleep 5
