@@ -2,5 +2,5 @@ pipeline:
   build:
     image: debian:stable-slim
     commands:
-      - echo building2
+      - echo building3
       - sleep 5
