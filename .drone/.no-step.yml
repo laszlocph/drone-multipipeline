@@ -1,0 +1,9 @@
+skip_clone: true
+
+pipeline:
+  test:
+    when:
+      branch: master
+    image: debian:stable-slim
+    commands:
+      - echo not happening

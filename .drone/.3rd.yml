@@ -1,9 +1,0 @@
-pipeline:
-  lint:
-    image: debian:stable-slim
-    commands:
-      - echo Fan-out to three
-      - sleep 5
-
-depends_on:
-  - build
