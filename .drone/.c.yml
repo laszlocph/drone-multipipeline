@@ -4,3 +4,5 @@ pipeline:
     commands:
       - echo building3
       - sleep 5
+
+depends_on: [ ano-step ]
