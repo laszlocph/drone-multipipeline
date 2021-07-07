@@ -1,5 +1,14 @@
 pipeline:
-  lint:
+  test:
     image: debian:stable-slim
     commands:
-      - echo I'm testing
+      - echo testing
+      - exit 1
+
+  wontrun:
+    image: debian:stable-slim
+    commands:
+      - echo I will not run
+
+depends_on:
+  - build

@@ -2,4 +2,5 @@ pipeline:
   lint:
     image: debian:stable-slim
     commands:
-      - echo I'm linting
+      - echo linting
+      - sleep 5

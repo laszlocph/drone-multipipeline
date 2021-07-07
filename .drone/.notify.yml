@@ -1,0 +1,15 @@
+pipeline:
+  notify:
+    image: debian:stable-slim
+    commands:
+      - echo notifying
+
+depends_on:
+  - lint
+  - build
+  - test
+  - deploy
+
+runs_on:
+  - success
+  - failure
